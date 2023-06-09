@@ -1,0 +1,11 @@
+.header{
+    font-family: '맑은 고딕';
+    color: white;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    font-size: 50px;
+}
+.Head > hr{
+    border: 5px solid black;
+    background: black;
+}

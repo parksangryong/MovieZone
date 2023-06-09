@@ -1,0 +1,89 @@
+.Movie{
+    color: black;
+    width: 472px;
+    height: 460px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.movie_img{
+    width: 472px;
+    height: 300px;
+    border: 1px solid gray;
+    background-color: rgb(47, 47, 47);
+}
+.movie_img img{
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+}
+.movie_img img:hover{
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+.movie_txt{
+    width: 472px;
+    height: 150px;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: rgb(209, 207, 207);
+    font-weight: bold;
+}
+
+.answer:hover{
+    color: red;
+}
+.quest{
+    float: left;
+    margin-left: 70px;
+    width: 100px;
+    color: gray;
+}
+.answer{
+    float: right;
+    margin-right: 50px;
+    width: 250px;
+    height: 30px;
+}
+.answerIn{
+    float: right;
+    margin-right: 50px;
+    width: 250px;
+    line-height: 30px;
+}
+.answerIn input{
+    float: left;
+    height: 25px;
+    margin-left: 50px;
+    text-align: center;
+    line-height: 20px;
+}
+.answerIn input:focus{
+    font-weight: bold;
+    background-color: rgb(232, 196, 232);
+}
+.modifyBtn{
+    top: 5px;
+    right: 5px;
+}
+.deleteBtn{
+    top: 60px;
+    right: 5px;
+}
+.Movie button{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: silver;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+.Movie button:hover{
+    color: white;
+    background-color: blueviolet;
+}
