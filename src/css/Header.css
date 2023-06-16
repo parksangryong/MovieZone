@@ -9,3 +9,11 @@
     border: 5px solid black;
     background: black;
 }
+
+.header:hover{
+    color: blueviolet;
+}
+
+.header.active{
+    color: violet;
+}

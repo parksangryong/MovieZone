@@ -74,7 +74,7 @@ render(){
         return(
             <div className='Movie'>
                 <div className='movie_img'>
-                    <img src={this.props.imgs} />
+                    <img src={this.props.imgs} alt={this.props.imgs} />
                 </div>
                 <div className='movie_txt'>
                     <span className='quest'>제목 :</span> <span className='answer'>{this.props.title}</span>
@@ -96,7 +96,7 @@ render(){
         return(
             <div className='Movie'>
                 <div className='movie_img'>
-                    <img src={this.props.imgs} />
+                    <img src={this.props.imgs} alt={this.props.imgs} />
                 </div>
                 <div className='movie_txt'>
                     <span className='quest'>제목 :</span> <span className='answerIn'><input type='text' onChange={this.inputTitle} defaultValue={this.props.title} /></span>

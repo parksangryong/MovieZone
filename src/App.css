@@ -22,3 +22,6 @@ li{
   display: inline-block;
   width: 1500px;
 }
+body{
+  background-color: black;
+}

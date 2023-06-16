@@ -1,0 +1,34 @@
+#pagelist{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#page{
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+#pagebox button{
+    margin: 0px 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#page.active{
+    color: violet;
+}
+
+#page:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+#pagebox button:hover{
+    color: blueviolet;
+}

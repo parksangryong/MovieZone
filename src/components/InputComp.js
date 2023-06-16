@@ -75,7 +75,9 @@ render(){
                 <span className='inq'>평점 :</span> <input type='text' placeholder='1~10' onChange={this.inputGrade} value={this.state.grade} />
             </div>
             <div className='inq_p'>
-                <span><input type="file" accept="image/*" /></span>
+                <span>
+                    <input type="file" accept="image/*" />
+                </span>
                 <br/>
                 <button onClick={this.addMovie}>추가</button>
             </div>
