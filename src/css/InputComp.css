@@ -12,12 +12,17 @@
     float: left;
     width: 500px;
 }
-.inq{
+.inq_t div{
+    width: 500px;
+    float: left;
+    display: inline;
+}
+.inq_t span{
     width: 200px;
     float: left;
 }
 .inq_t input{
-    width: 250px;
+    width: 220px;
     float: left;
     height: 20px;
     margin: 1.5px 0;

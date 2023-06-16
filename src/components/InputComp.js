@@ -64,16 +64,29 @@ render(){
     return(
         <div id='Inputcomp'>
             <div className='inq_t'>
+                <div>
                 <span className='inq'>제목 :</span> <input type='text' onChange={this.inputTitle} value={this.state.title} />
+                </div>
+               <div>
+               <span className='inq'>개봉 :</span> <input type='text' placeholder='yyyy-mm-dd' onChange={this.inputRelease} value={this.state.release} />
+                
+               </div>
+               <div>
+               <span className='inq'>장르 :</span> <input type='text' onChange={this.inputGenre} value={this.state.genre} />
+                
+               </div>
+               <div>
+               <span className='inq'>국가 :</span> <input type='text' onChange={this.inputCountry} value={this.state.country} />
+                
+               </div>
+               <div>
+               <span className='inq'>평점 :</span> <input type='text' placeholder='1~10' onChange={this.inputGrade} value={this.state.grade} />
+         
+               </div>
                 <br/>
-                <span className='inq'>개봉일 :</span> <input type='text' placeholder='yyyy-mm-dd' onChange={this.inputRelease} value={this.state.release} />
                 <br/>
-                <span className='inq'>장르 :</span> <input type='text' onChange={this.inputGenre} value={this.state.genre} />
                 <br/>
-                <span className='inq'>국가 :</span> <input type='text' onChange={this.inputCountry} value={this.state.country} />
-                <br/>
-                <span className='inq'>평점 :</span> <input type='text' placeholder='1~10' onChange={this.inputGrade} value={this.state.grade} />
-            </div>
+                   </div>
             <div className='inq_p'>
                 <span>
                     <input type="file" accept="image/*" />
